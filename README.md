@@ -78,17 +78,16 @@ The assembly includes motion links to demonstrate coordinated component movement
 
 The relative angular velocities depend on the operating configuration: which component is fixed, which is driven, and which serves as the output. For a simple planetary gear set, the relationship is:
 
-\[
-N_s(\omega_s-\omega_c)+N_r(\omega_r-\omega_c)=0
-\]
 
-where:
+Ns(ωs − ωc) + Nr(ωr − ωc) = 0
 
-- \(N_s\) — sun gear tooth count
-- \(N_r\) — ring gear tooth count
-- \(\omega_s\) — sun gear angular velocity
-- \(\omega_r\) — ring gear angular velocity
-- \(\omega_c\) — carrier angular velocity
+Where:
+Ns = Number of teeth on the sun gear (16)
+Nr = Number of teeth on the ring gear (60)
+ωs = Angular velocity of the sun gear
+ωr = Angular velocity of the ring gear
+ωc = Angular velocity of the planet carrier
+ω means angular velocity (rotational speed), usually measured in RPM or rad/s.
 
 This relationship can be used to analyse the mechanism's speed ratios for different input and output configurations. A specific velocity increase or reduction ratio is not claimed here because the operating configuration has not been specified.
 
